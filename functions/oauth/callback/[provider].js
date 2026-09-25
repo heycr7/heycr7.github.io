@@ -126,8 +126,7 @@ export async function onRequestGet(context) {
         "User-Agent": "heycr7-oauth-lab",
       },
     });
-   if (userRes.status !== 200) return badRequest("Falha ao consultar o perfil no GitHub");
-    }
+    if (userRes.status !== 200) return badRequest("Falha ao consultar o perfil no GitHub");
     const user = await userRes.json();
     if (typeof user.id !== "number") return badRequest("Perfil do GitHub sem id numérico");
 
