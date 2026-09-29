@@ -1,2 +1,1 @@
-02-google-retorno.txt
  https://heycr7-github-io.pages.dev/oauth/callback/google
