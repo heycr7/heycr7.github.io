@@ -1,0 +1,2 @@
+Homepage URL: https://heycr7-github-io.pages.dev
+Authorization callback URL: https://heycr7-github-io.pages.dev/oauth/callback/github
